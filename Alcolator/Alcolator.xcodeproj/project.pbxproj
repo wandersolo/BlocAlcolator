@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0496B6D11D14868A00677738 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhiskeyViewController.h; path = Alcolator/WhiskeyViewController.h; sourceTree = "<group>"; };
-		0496B6D21D14868A00677738 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhiskeyViewController.m; path = Alcolator/WhiskeyViewController.m; sourceTree = "<group>"; };
+		0496B6D11D14868A00677738 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		0496B6D21D14868A00677738 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		04B35BE11D0BBAB4000BA044 /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B35BE51D0BBAB4000BA044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B35BE71D0BBAB4000BA044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,8 +45,6 @@
 		04B35BD81D0BBAB4000BA044 = {
 			isa = PBXGroup;
 			children = (
-				0496B6D11D14868A00677738 /* WhiskeyViewController.h */,
-				0496B6D21D14868A00677738 /* WhiskeyViewController.m */,
 				04B35BE31D0BBAB4000BA044 /* Alcolator */,
 				04B35BE21D0BBAB4000BA044 /* Products */,
 			);
@@ -67,6 +65,8 @@
 				04B35BE81D0BBAB4000BA044 /* AppDelegate.m */,
 				04B35BEA1D0BBAB4000BA044 /* ViewController.h */,
 				04B35BEB1D0BBAB4000BA044 /* ViewController.m */,
+				0496B6D11D14868A00677738 /* WhiskeyViewController.h */,
+				0496B6D21D14868A00677738 /* WhiskeyViewController.m */,
 				04B35BED1D0BBAB4000BA044 /* Main.storyboard */,
 				04B35BF01D0BBAB4000BA044 /* Assets.xcassets */,
 				04B35BF21D0BBAB4000BA044 /* LaunchScreen.storyboard */,
