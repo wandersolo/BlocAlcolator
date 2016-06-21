@@ -10,9 +10,20 @@
 
 @interface WhiskeyViewController ()
 
+
 @end
 
+
+
 @implementation WhiskeyViewController
+
+- (void)sliderValueDidChange:(UISlider *)sender {
+    //NSLog(@"Slider value changed to %f", sender.value);
+    int roundedVal = lroundf(sender.value);
+    self.navigationItem.title = [NSString stringWithFormat: @"Whiskey (%i Shots)", roundedVal];
+    [self.beerPercentTextField resignFirstResponder];
+}
+
 - (void)buttonPressed:(UIButton *)sender;
 {
     [self.beerPercentTextField resignFirstResponder];

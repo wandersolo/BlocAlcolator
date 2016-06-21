@@ -26,7 +26,9 @@
 }
 
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
-    NSLog(@"Slider value changed to %f", sender.value);
+    //NSLog(@"Slider value changed to %f", sender.value);
+    int roundedVal = lroundf(sender.value);
+    self.navigationItem.title = [NSString stringWithFormat: @"Wine (%i Glasses)", roundedVal];
     [self.beerPercentTextField resignFirstResponder];
 }
 
